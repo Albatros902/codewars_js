@@ -1,5 +1,5 @@
 function digitalRoot(n) {
-    n = n = n.toString().split('').map(Number)
+    n = n.toString().split('').map(Number)
     while (n.length > 1) {
         let sum = 0
         for (let i = 0; i < n.length; i++) {
